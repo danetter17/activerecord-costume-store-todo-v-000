@@ -18,17 +18,25 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
+<<<<<<< HEAD
     t.datetime "opening_time"
     t.datetime "closing_time"
+=======
+>>>>>>> 2dbb1bb8765ad4da6f87dafad88b3d44f9e4adf6
   end
 
   create_table "costumes", force: :cascade do |t|
     t.string "name"
     t.float "price"
+<<<<<<< HEAD
     t.string "image_url"
     t.string "size"
     t.datetime "created_at"
     t.datetime "updated_at"
+=======
+    t.string "url"
+    t.string "size"
+>>>>>>> 2dbb1bb8765ad4da6f87dafad88b3d44f9e4adf6
   end
 
   create_table "haunted_houses", force: :cascade do |t|
